@@ -7,7 +7,7 @@ name = "auth_service"
 version = "0.1.0"
 
 [[package]]
-name = "rust-learn-"
+name = "testmodule"
 version = "0.1.0"
 dependencies = [
  "auth_service",
