@@ -1,4 +1,4 @@
-#![allow(dead_code, unused_variables)]
+#![allow(dead_code, unused_variables)] //used to avoid warnings
 
 // A module is a collection of items: functions, structs, traits, impl blocks, and even other modules.
 
