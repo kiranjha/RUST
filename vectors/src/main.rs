@@ -39,6 +39,34 @@ fn main() {
     // println!("The first element is: {first}"); error :- immutable borrow later used here
 
     //ITERATING OVER THE VALUES IN A VECTOR
-    ..
+    loop_over_vector();
+
+    //VECTOR OF ENUM
+    vector_of_enum();
     
+}
+fn loop_over_vector() {
+    let v1 = vec![99, 29, 44, 69];
+    for i in &v1 {
+        println!("Immutable Vector Element :- {}",i);
+    }
+
+    let mut v2 = vec![99,44,23,69];
+    for i in &mut v2 {
+        *i += 1;
+        println!("Mutable Vector Element :- {}",i);
+    }
+}
+#[derive(Debug)]
+enum SpreadsheetCell {
+    Int(i32),
+    Float(f64),
+    Text(String),
+}
+
+fn vector_of_enum() {
+    let row = vec![SpreadsheetCell::Int(3), SpreadsheetCell::Float(10.12), SpreadsheetCell::Text(String::from("Blue")),];
+    for i in &row {
+        println!("Vector Enum :- {:?}",*i);
+    }
 }
