@@ -31,7 +31,7 @@ impl Solution {
         let mut output: Vec<i32> = vec![1; len];
         let mut product = 1;
         for i in 0..len {
-            output[i] *= product;
+            output[i] = product;
             product *= nums[i];
         }
         product = 1;
