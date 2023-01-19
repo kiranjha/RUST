@@ -1,0 +1,1 @@
+D:\Rapid\ Innovation\ join\ 16th\ Aug\ 2022\rust-learn-\generics_traits_lifetime\target\debug\generics_traits_lifetime.exe: D:\Rapid\ Innovation\ join\ 16th\ Aug\ 2022\rust-learn-\generics_traits_lifetime\src\main.rs
