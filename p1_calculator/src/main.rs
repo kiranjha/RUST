@@ -1,6 +1,12 @@
 use std::env::{args, Args};
 fn main() {
     let mut args = args();
+    println!("{:?}",args);
+    println!("{:?}",args.nth(1));
+    println!("{:?}",args.nth(0));
+    println!("{:?}",args.nth(0));
+    println!("{:?}",args.nth(0));
+
     
     let first = args.nth(1).unwrap();
     let operator = args.nth(0).unwrap().chars().next().unwrap();
