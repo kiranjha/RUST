@@ -15,6 +15,7 @@ fn main() {
         println!("{} at {:?}",i, v);
     }
 }
+
 // fn solution(nums: Vec<i32>){
 //     // let mut left = Vec::new();
 //     // left[0] = 1;
