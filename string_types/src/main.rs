@@ -70,6 +70,10 @@ fn iterating_over_string() {
     for b in "नमस्ते".bytes() {
         println!("{b}");
     }
+    println!("\n");
+    for b in "abcabcbb".as_bytes() {
+        println!("{b}");
+    }
     // let r = i32::pow(2, 4);
     // println!("{r}");
 }
