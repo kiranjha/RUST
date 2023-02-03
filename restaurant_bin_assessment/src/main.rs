@@ -4,3 +4,4 @@ fn main() {
     println!("Hello, from main!");
     add_to_waitlist();
 }
+

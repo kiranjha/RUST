@@ -126,7 +126,6 @@ fn main() {
     println!("1 news article: {}", news.summarize());
     println!("1 not define news article: {}\n", news.defaultsummarize());
     // println!("Hello, world!");
-
     //try using notify function 
     notify(&news);
     notify(&tweet);
